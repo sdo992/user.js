@@ -26,6 +26,7 @@ user_pref("browser.download.folderList", 2); // 0 = Desktop, 1 = Downloads folde
 user_pref("browser.download.manager.addToRecentDocs", false); // Windows only: Disable adding to RecentDocs
 user_pref("browser.download.manager.retention", 0);
 user_pref("browser.download.useDownloadDir", false); // Prompt for download folder
+user_pref("browser.chrome.site_icons", false); // See: https://github.com/jonasstrehle/supercookie and test at https://demo.supercookie.me/identity
 user_pref("browser.fixup.alternate.enabled", false); // Do not try to guess domain names
 user_pref("browser.fixup.hide_user_pass", true);
 user_pref("browser.formfill.enable", false); // Don't autofill
