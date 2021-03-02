@@ -2,13 +2,12 @@
     references used in part:
         ghacks: https://github.com/ghacksuserjs/ghacks-user.js/blob/master/user.js
         pyllyukko: https://github.com/pyllyukko/user.js/
-		arkenfox: https://github.com/arkenfox/user.js
-		Ryan Daniels: https://gist.github.com/ryandaniels/33e443bb401dde665fce15dd2a3959b6
+	arkenfox: https://github.com/arkenfox/user.js
+	Ryan Daniels: https://gist.github.com/ryandaniels/33e443bb401dde665fce15dd2a3959b6
         Mozilla privacy tweaks: https://wiki.mozilla.org/Privacy/Privacy_Task_Force/firefox_about_config_privacy_tweeks
         Mozilla disable automatic connections: https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections
         Spyware: https://spyware.neocities.org/guides/firefox.html
-		RestorePrivacy: https://restoreprivacy.com/firefox-privacy/
-        
+	RestorePrivacy: https://restoreprivacy.com/firefox-privacy/
     Check out browser security: https://browserleaks.com/
     
     Sane user.js
