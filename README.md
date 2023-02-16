@@ -19,6 +19,3 @@ Your mileage may vary.
 
 ### License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-### Acknowledgements
-See a list of the main sources in the `user.js` file itself; too many others to mention outside of that.
