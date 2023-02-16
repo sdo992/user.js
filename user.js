@@ -1,6 +1,6 @@
 /***
     references used in part:
-        ghacks: https://github.com/ghacksuserjs/ghacks-user.js/blob/master/user.js
+        <a href="https://github.com/ghacksuserjs/ghacks-user.js/blob/master/user.js" target="_blank">ghacks</a>
         pyllyukko: https://github.com/pyllyukko/user.js/
 	arkenfox: https://github.com/arkenfox/user.js
 	Ryan Daniels: https://gist.github.com/ryandaniels/33e443bb401dde665fce15dd2a3959b6
