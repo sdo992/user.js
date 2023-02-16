@@ -10,7 +10,7 @@
 	RestorePrivacy: https://restoreprivacy.com/firefox-privacy/
     Check out browser security: https://browserleaks.com/
     
-    Sane user.js
+    My sane user.js, your mileage may vary
 ***/
 
 // Basic browser Settings
@@ -31,9 +31,9 @@ user_pref("browser.fixup.alternate.enabled", false); // Do not try to guess doma
 user_pref("browser.fixup.hide_user_pass", true);
 user_pref("browser.formfill.enable", false); // Don't autofill
 user_pref("browser.newtab.preload", false); // same
-user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false); \\ Fuck telemetry
-user_pref("browser.newtabpage.activity-stream.telemetry", false); \\ Fuck telemetry
-user_pref("browser.newtabpage.activity-stream.telemetry.ping.endpoint", ""); \\ Fuck telemetry
+user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false); // Forget telemetry
+user_pref("browser.newtabpage.activity-stream.telemetry", false); // Forget telemetry
+user_pref("browser.newtabpage.activity-stream.telemetry.ping.endpoint", ""); // Forget telemetry
 user_pref("browser.newtabpage.activity-stream.asrouter.providers.snippets", "");
 user_pref("browser.newtabpage.activity-stream.disableSnippets", true);
 user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);
@@ -76,7 +76,7 @@ user_pref("browser.search.suggest.enabled", false); //Disable search suggestions
 user_pref("browser.search.update", false); // Don't update search engines automatically
 user_pref("browser.selfsupport.url", ""); // Don't send a heartbeat ping
 user_pref("browser.send_pings", false); // "The attribute would be useful for letting websites track visitors’ clicks. " https://wiki.mozilla.org/Privacy/Privacy_Task_Force/firefox_about_config_privacy_tweeks
-user_pref("browser.sessionstore.max_tabs_undo", 0); Disable temporary list of recently closed tabs 
+user_pref("browser.sessionstore.max_tabs_undo", 0); // Disable temporary list of recently closed tabs 
 user_pref("browser.shell.checkDefaultBrowser", false); // Don't check & shut up
 user_pref("browser.startup.homepage", "about:blank"); //Blank start page
 user_pref("browser.tabs.crashReporting.sendReport", false); // Don't send crash report
@@ -117,8 +117,8 @@ user_pref("dom.network.enabled", false); // See: // https://www.torproject.org/p
 //user_pref("dom.push.connection.enabled", false);
 //user_pref("dom.push.serverURL", "");
 //user_pref("dom.push.userAgentID", "");
-user_pref("dom.serviceWorkers.enabled", false);
-user_pref("dom.vr.enabled", false); // 
+user_pref("dom.serviceWorkers.enabled", false); //Breaks functionality on some sites, such as Google Street View, and breaks Firefox sync
+user_pref("dom.vr.enabled", false); // I don't want VR on my web browser
 user_pref("dom.webnotifications.enabled", false);
 user_pref("dom.workers.enabled", false);
 user_pref("dom.webaudio.enabled", false);
