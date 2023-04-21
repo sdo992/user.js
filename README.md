@@ -8,7 +8,6 @@ This is a template and should be used as such; I've included items that I think 
 Your mileage may vary.
 
 ### Sources
-- [ghacks](https://github.com/ghacksuserjs/ghacks-user.js/blob/master/user.js)
 - [pyllyukko](https://github.com/pyllyukko/user.js/)
 - [arkenfox](https://github.com/arkenfox/user.js)
 - [Ryan Daniels' user.js](https://gist.github.com/ryandaniels/33e443bb401dde665fce15dd2a3959b6)
