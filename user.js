@@ -1,6 +1,5 @@
 /***
     references used in part:
-    	ghacks: https://github.com/ghacksuserjs/ghacks-user.js/blob/master/user.js
         pyllyukko: https://github.com/pyllyukko/user.js/
 	arkenfox: https://github.com/arkenfox/user.js
 	Ryan Daniels: https://gist.github.com/ryandaniels/33e443bb401dde665fce15dd2a3959b6
@@ -38,6 +37,7 @@ user_pref("browser.newtabpage.activity-stream.asrouter.providers.snippets", "");
 user_pref("browser.newtabpage.activity-stream.disableSnippets", true);
 user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
+user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false); // Thanks to @ryandaniels, disable sponsored Top Sites
 user_pref("browser.newtabpage.directory.ping", "");
 user_pref("browser.newtabpage.directory.source", "data:text/plain,{}");
 user_pref("browser.newtabpage.enabled", false); // No activity on New Tab
