@@ -7,6 +7,14 @@ See: http://kb.mozillazine.org/User.js_file
 This is a template and should be used as such; I've included items that I think are important and often have to use another browser for banking or restart Firefox with everything disabled.
 Your mileage may vary.
 
+## Location
+
+An accurate way to find where to place the `user.js` is to type `about:profiles` in your URL bar. The profile in use will be listed under the heading:
+
+`This is the profile in use and it cannot be deleted.`
+
+Using your favorite method, navigate to that directory and create your user.js file there.
+
 ### Sources
 - [pyllyukko](https://github.com/pyllyukko/user.js/)
 - [arkenfox](https://github.com/arkenfox/user.js)
