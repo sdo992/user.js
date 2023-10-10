@@ -15,9 +15,11 @@
 // Basic browser Settings
 user_pref("browser.aboutHomeSnippets.updateUrl", ""); //Disable downloading homepage snippets/messages from Mozilla, auto-connects to Mozilla
 user_pref("browser.cache.disk.enable", false); // No disk cache, http://kb.mozillazine.org/Browser.cache.disk.enable
+user_pref("browser.cache.disk_cache_ssl", false); // Don't cache SSL pages, http://kb.mozillazine.org/Browser.cache.disk_cache_ssl
+user_pref("browser.cache.disk.capacity", "2097152"); // Set cache size to 2GB
+user_pref("browser.cache.disk.smart_size.enabled", false); //Don't let FF control cache size
 user_pref("browser.cache.memory.enable", true); // Enable memory cache, http://kb.mozillazine.org/Browser.cache.memory.enable
 user_pref("browser.cache.offline.enable", false); // Disable offline cache
-user_pref("browser.cache.disk_cache_ssl", false); // Don't cache SSL pages, http://kb.mozillazine.org/Browser.cache.disk_cache_ssl
 user_pref("browser.casting.enabled", false); // Part of the UPnP protocol: SSDP disabled
 user_pref("browser.crashReports.unsubmittedCheck.enabled", false);
 user_pref("browser.display.use_document_fonts", 0); // Prevent font fingerprint
@@ -75,6 +77,7 @@ user_pref("browser.search.region", "US"); // US as default location
 user_pref("browser.search.suggest.enabled", false); //Disable search suggestions in the search bar
 user_pref("browser.search.update", false); // Don't update search engines automatically
 user_pref("browser.selfsupport.url", ""); // Don't send a heartbeat ping
+user_pref("browser.sessionstore.interval", "3600000"); //Don't save so often
 user_pref("browser.send_pings", false); // "The attribute would be useful for letting websites track visitors’ clicks. " https://wiki.mozilla.org/Privacy/Privacy_Task_Force/firefox_about_config_privacy_tweeks
 user_pref("browser.sessionstore.max_tabs_undo", 0); // Disable temporary list of recently closed tabs 
 user_pref("browser.shell.checkDefaultBrowser", false); // Don't check & shut up
