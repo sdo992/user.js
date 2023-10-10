@@ -13,6 +13,8 @@ An accurate way to find where to place the `user.js` is to type `about:profiles`
 
 `This is the profile in use and it cannot be deleted.`
 
+Another option is to choose `Help` and then `More Troubleshooting Information`. About 9 lines down, you will find the `Profile Directory` information.
+
 Using your favorite method, navigate to that directory and create your user.js file there.
 
 ### Sources
