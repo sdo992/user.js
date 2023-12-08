@@ -109,6 +109,7 @@ user_pref("dom.enable_performance", false); // See for security concerns: https:
 user_pref("dom.enable_resource_timing", false);
 user_pref("dom.enable_user_timing", false);
 user_pref("dom.event.clipboardevents.enabled",  false); // Don't let sites know what you click
+user_pref("dom.event.contextmenu.enabled", false); // Disable right-click hijack
 user_pref("dom.flyweb.enabled", false); // Just...no; for a good breakdown see: https://www.ghacks.net/2016/07/26/firefox-flyweb/
 user_pref("dom.gamepad.enabled", false); // If you don't game on the browser, enable if you do
 user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false); // Disable Flash Player crash reports
