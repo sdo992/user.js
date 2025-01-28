@@ -23,6 +23,7 @@ user_pref("browser.cache.offline.enable", false); // Disable offline cache
 user_pref("browser.casting.enabled", false); // Part of the UPnP protocol: SSDP disabled
 user_pref("browser.crashReports.unsubmittedCheck.enabled", false);
 user_pref("browser.display.use_document_fonts", 0); // Prevent font fingerprint
+user_pref("browser.download.alwaysOpenPanel", false); //Disable Downloads popup
 user_pref("browser.download.folderList", 2); // 0 = Desktop, 1 = Downloads folder, 2 = Use most recent
 user_pref("browser.download.manager.addToRecentDocs", false); // Windows only: Disable adding to RecentDocs
 user_pref("browser.download.manager.retention", 0);
