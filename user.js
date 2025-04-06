@@ -131,6 +131,9 @@ user_pref("dom.telephony.enabled", false); // https://wiki.mozilla.org/WebAPI/Se
 
 // GEO-location
 user_pref("geo.enabled", false);
+user_pref("geo.provider.geoclue.always_high_accuracy"), false;
+user_pref("geo.provider.network.url"), 127.0.0.1;
+user_pref("geo.provider.use_geoclue", false);
 user_pref("geo.wifi.uri", " ");
 user_pref("geo.wifi.logging.enabled", false);
 
