@@ -203,7 +203,8 @@ user_pref("privacy.cpd.history", true);
 user_pref("privacy.cpd.sessions", true);
 user_pref("privacy.trackingprotection.cryptomining.enabled", true); // Block cryptominers
 user_pref("privacy.firstparty.isolate", true); // Enable first-party isolation, see: https://wiki.mozilla.org/Security/FirstPartyIsolation
-user_pref("privacy.resistFingerprinting", false); // Either-or; breaks some sites
+user_pref("privacy.resistFingerprinting", true); // Either-or; breaks some sites, FF 41+
+user_pref("privacy.resistFingerprinting.pbmode", true); //Breaks some sites, FF 114+
 user_pref("privacy.sanitize.sanitizeOnShutdown", true);
 user_pref("privacy.sanitize.timeSpan", 0); // Clear everything in Recent History
 
@@ -260,3 +261,4 @@ user_pref("print.print_headerright", "");
 user_pref("print.print_footercenter", "");
 user_pref("print.print_footerleft", "");
 user_pref("print.print_footerright", "");
+
