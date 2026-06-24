@@ -85,10 +85,12 @@ user_pref("browser.search.suggest.enabled", false); //Disable search suggestions
 user_pref("browser.search.update", false); // Don't update search engines automatically
 user_pref("browser.selfsupport.url", ""); // Don't send a heartbeat ping
 user_pref("browser.send_pings", false); // "The attribute would be useful for letting websites track visitors’ clicks. " https://wiki.mozilla.org/Privacy/Privacy_Task_Force/firefox_about_config_privacy_tweeks
+user_pref("browser.send_pings.require_same_host", false);
 user_pref("browser.sessionstore.interval", "3600000"); //Don't save so often
 user_pref("browser.sessionstore.max_tabs_undo", 0); // Disable temporary list of recently closed tabs
 user_pref("browser.sessionstore.privacy_level", 2); // 0 = Everywhere, 1 = Encrypted sites only, 2 = nowhere
 user_pref("browser.shell.checkDefaultBrowser", false); // Don't check & shut up
+user_pref("browser.slowStartup.notificationDisabled", false);
 user_pref("browser.startup.homepage", "about:blank"); //Blank start page
 user_pref("browser.tabs.crashReporting.sendReport", false); // Don't send crash report
 user_pref("browser.uitour.enabled", false); // Disable tour
@@ -137,6 +139,8 @@ user_pref("devtools.webide.autoinstallFxdtAdapters", false);
 user_pref("dom.allow_cut_copy", false); // Don't write to clipboard
 user_pref("dom.battery.enabled", false); // Don't let sites check battery status
 user_pref("dom.enable_performance", false); // See for security concerns: https://wiki.mozilla.org/Security/Reviews/Firefox/NavigationTimingAPI
+user_pref("dom.enable_performance_navigation_timing", false);
+user_pref("dom.enable_performance_observer", false);
 user_pref("dom.enable_resource_timing", false);
 user_pref("dom.enable_user_timing", false);
 user_pref("dom.event.clipboardevents.enabled",  false); // Don't let sites know what you click
@@ -148,10 +152,7 @@ user_pref("dom.ipc.plugins.reportCrashURL", false); // Don't report URL of crash
 user_pref("dom.maxHardwareConcurrency", 2); // Pretend to be a dual-core CPU
 user_pref("dom.netinfo.enabled", false); // See: https://wicg.github.io/netinfo/#privacy-considerations
 user_pref("dom.network.enabled", false); // See: // https://www.torproject.org/projects/torbrowser/design/#fingerprinting-defenses
-//user_pref("dom.push.enabled", false);
-//user_pref("dom.push.connection.enabled", false);
-//user_pref("dom.push.serverURL", "");
-//user_pref("dom.push.userAgentID", "");
+user_pref("dom.private-attribution.submission.enabled", false); // Disables the ability of advertisers to know if their ad was effective
 user_pref("dom.security.https_only_mode_send_http_background_request", false); // Stop from sending hidden ping after 3 seconds, Firefox 82+
 user_pref("dom.serviceWorkers.enabled", false); //Breaks functionality on some sites, such as Google Street View, and breaks Firefox sync
 user_pref("dom.vr.enabled", false); // I don't want VR on my web browser
@@ -163,6 +164,7 @@ user_pref("dom.telephony.enabled", false); // https://wiki.mozilla.org/WebAPI/Se
 // Extensions
 user_pref("extensions.blocklist.enabled", false);
 user_pref("extensions.blocklist.url", "");
+user_pref("extensions.getAddons.cache.enabled", false);
 user_pref("extensions.getAddons.showPane", false); // Hidden Preference
 user_pref("extensions.htmlaboutaddons.recommendations.enabled", false); // Disable recommendations in about:addons
 user_pref("extensions.pocket.enabled", false); // Fuck pocket
@@ -172,6 +174,7 @@ user_pref("geo.enabled", false);
 user_pref("geo.provider.geoclue.always_high_accuracy"), false;
 user_pref("geo.provider.network.url"), 127.0.0.1;
 user_pref("geo.provider.use_geoclue", false);
+user_pref("geo.provider.ms-windows-location", false);
 user_pref("geo.wifi.uri", " ");
 user_pref("geo.wifi.logging.enabled", false);
 
@@ -196,6 +199,7 @@ user_pref("network.cookie.cookieBehavior", 1); // 0 = accept all; 1 = block 3rd 
 user_pref("network.cookie.lifetimePolicy", 2); // 0 = accept normally; 1 = prompt for each; 2 = current session only; 3 accept for 'N' days, see: https://wiki.mozilla.org/Privacy/Privacy_Task_Force/firefox_about_config_privacy_tweeks
 user_pref("network.dns.disablePrefetch", true); // Disable DNS prefetch
 user_pref("network.dns.disablePrefetchFromHTTPS", true); // As above, with HTTPS
+user_pref("network.http.speculative-parallel-limit", 0);
 user_pref("network.http.use-cache", true); // Needed to use memory cache, see line 12
 user_pref("network.IDN_show_punycode", true); // Show actual code for international characters, see: http://kb.mozillazine.org/Network.IDN_show_punycode
 user_pref("network.jar.open-unsafe-types",  false); // Don't open unsafe Java JAR files
